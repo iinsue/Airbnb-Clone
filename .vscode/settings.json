@@ -1,3 +1,9 @@
 {
-    "python.pythonPath": "C:\\Users\\hong\\.virtualenvs\\airbnb-clone-gBI4O_5r\\Scripts\\python.exe"
+  "python.pythonPath": "C:\\Users\\hong\\.virtualenvs\\airbnb-clone-gBI4O_5r\\Scripts\\python.exe",
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "python.linting.flake8Args": ["--max-line-length=88"]
+  // linter에서 한줄에 들어가는 글자수 제한 확장
 }
